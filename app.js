@@ -2,10 +2,11 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+// Primeira rota com Express
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('<h1>TODO List</h1>')
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Servidor foi iniciado em http://localhost:${port}`)
 })
