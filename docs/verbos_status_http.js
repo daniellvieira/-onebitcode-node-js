@@ -28,5 +28,4 @@
     * 422 - Requisição bem formada, mas possui erros semânticos
   - Os da família 500 representam dados no servidor
 
-  
 */
